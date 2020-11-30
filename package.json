@@ -6,6 +6,15 @@
   },
   "description": "About fhuel",
   "dependencies": {
+    "chalk": "^4.1.0",
     "cli-welcome": "^2.2.2"
-  }
+  },
+  "keywords": [
+    "manuele capacci",
+    "fhuel",
+    "about"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": "fhuel/whosfhuel"
 }

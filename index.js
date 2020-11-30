@@ -1,7 +1,10 @@
-#!/usr/bin / env node
+#!/usr/bin/env node
 
 const pckJSON = require("./package.json");
 const welcome = require("cli-welcome");
+const chalk = require("chalk");
+
+const log = console.log;
 
 welcome({
   title: pckJSON.name,
@@ -13,10 +16,12 @@ welcome({
   clear: true,
 });
 
-console.log(`
-Manuele Capacci
+log(`
+${chalk.bold("Manuele Capacci")}
 
-Designer and developer using machines to create beautiful and meaningful products, visuals, and experiences for humans.
+${chalk.italic(
+  "Designer and developer using machines to create beautiful and meaningful products, visuals, and experiences for humans."
+)}
 
 Founder and director at OurFir.es, London based design studio.
 
