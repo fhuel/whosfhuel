@@ -1,4 +1,18 @@
-#!/usr/bin/env node
+#!/usr/bin / env node
+
+const pckJSON = require("./package.json");
+const welcome = require("cli-welcome");
+
+welcome({
+  title: pckJSON.name,
+  description: pckJSON.description,
+  version: pckJSON.version,
+  bgColor: `#ff0044`,
+  color: `#ffffff`,
+  bold: true,
+  clear: true,
+});
+
 console.log(`
 Manuele Capacci
 
