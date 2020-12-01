@@ -16,5 +16,9 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "repository": "fhuel/whosfhuel"
+  "repository": "fhuel/whosfhuel",
+  "file": [
+    "index.js",
+    "utils"
+  ]
 }
